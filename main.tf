@@ -1,5 +1,6 @@
+# Define a provider
 provider "aws" {
-  access_key = ""              # Define a provider
+  access_key = ""
   secret_key = ""
   region     = "${var.region}"
 }
